@@ -1,0 +1,14 @@
+# 忽略虚拟环境
+venv/
+.venv/
+ENV/
+
+# 忽略 PyCharm 配置文件
+.idea/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略日志文件
+*.log
