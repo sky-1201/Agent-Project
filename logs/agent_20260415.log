@@ -1,0 +1,47 @@
+2026-04-15 15:24:52,931 - agent - INFO - logger_handler.py:56 - 信息日志
+2026-04-15 15:24:52,931 - agent - ERROR - logger_handler.py:57 - 错误日志
+2026-04-15 15:24:52,931 - agent - WARNING - logger_handler.py:58 - 警告日志
+2026-04-15 15:24:52,931 - agent - DEBUG - logger_handler.py:59 - 调试日志
+2026-04-15 20:47:40,328 - agent - ERROR - prompt_loader.py:30 - [load_rag_prompts]解析RAG总结提示词出错，[Errno 2] No such file or directory: 'C:\\Code\\Pycharm\\Agent Project\\prompts/rag_summarize.txt'
+2026-04-15 20:49:19,361 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-15 20:49:19,364 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-04-15 20:49:34,593 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-15 20:49:34,595 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-04-15 20:50:35,877 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-15 20:50:35,880 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 如何设置最高效的清扫计划？
+2026-04-15 20:50:37,728 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-15 20:50:37,731 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人 高效清扫计划 设置建议'}
+2026-04-15 20:50:40,985 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-15 20:50:42,699 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-15 20:50:42,701 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 设置高效清扫计划建议：根据家庭布局划分区域，设定重点清扫区；利用定时功能在固定时段自动清扫；保持地面整洁减少障碍物；定期清理机器人尘盒和滚刷以维持吸力；确保充电座位置开阔便于返回。
+2026-04-15 20:53:16,104 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-15 20:53:16,106 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 根据我当地今天的天气，说一下机器人应该如何清洗
+2026-04-15 20:53:18,733 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-15 20:53:18,736 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-15 20:53:18,738 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-15 20:53:18,787 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-15 20:53:18,791 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 深圳
+2026-04-15 20:53:21,743 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-15 20:53:21,744 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-04-15 20:53:21,745 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-04-15 20:53:22,673 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-15 20:53:22,675 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-15 20:53:27,089 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-15 20:53:27,090 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人日常清洁维护方法'}
+2026-04-15 20:53:29,949 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-15 20:53:31,509 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-15 20:53:31,512 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人日常清洁维护包括：定期清理尘盒并用水洗净晾干；清理滚刷和边刷上的缠绕毛发及杂物；擦拭传感器和充电触点；检查并清理轮子缝隙中的异物；确保滤网清洁或按说明更换。
+2026-04-15 20:58:23,942 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-15 20:58:23,943 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 我的水箱加水后漏水怎么办啊？
+2026-04-15 20:58:25,953 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-15 20:58:25,958 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫拖一体机水箱加水后漏水故障排查与处理方法'}
+2026-04-15 20:58:29,749 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-15 20:58:31,607 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-15 20:58:31,609 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫拖一体机水箱加水后漏水，可按以下步骤排查与处理：首先检查水箱是否正确安装到位；其次查看水箱密封圈是否老化、变形或缺失；再确认水箱本体是否有裂纹或破损；同时检查主机底部出水口是否堵塞或密封不良；若以上均正常，可能是内部水泵或管路故障，建议联系售后专业检修。
+2026-04-15 21:00:28,610 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-15 21:00:28,612 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 续航时间应该怎么选择
+2026-04-15 21:00:30,301 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-15 21:00:30,303 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人续航时间选择建议'}
+2026-04-15 21:00:33,024 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-15 21:00:34,200 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-15 21:00:34,201 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人续航时间建议选择60分钟以上，以确保完成常规家庭清洁任务；若房屋面积较大或需深度清洁，应优先考虑续航达90分钟或支持自动回充的产品。
